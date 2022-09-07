@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+    .footIcon {
+        font-size: 3rem;
+        color: white;
+        margin: 0 1rem;
+    }
+
+    .bxl-github{
+        transition: all .5s ease;
+        color: white;
+    }
+    
+    .bxl-github:hover {
+        transform: translateY(-10px);
+        color: #0966c3;
+    }
+    
+    .bxl-linkedin {
+        transition: all .4s ease;
+        color: white;
+    }
+    
+    .bxl-linkedin:hover {
+        transform: translateY(-10px);
+        color: #0966c3;
+    }
+    
+    .bxl-gmail {
+        transition: all .4s ease;
+        color: white;
+    }
+    
+    .bxl-gmail:hover {
+        transform: translateY(-10px);
+        color: #0966c3;
+    }
+}

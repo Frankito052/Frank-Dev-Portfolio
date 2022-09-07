@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
 /* ---------------------------------   INDEX    ------------------------------------ */
 
@@ -17,7 +17,7 @@
 }
 
  /* ---------------------------------HEADER------------------------------------ */
- header{
+ /* header{
     position: sticky;
     top: 0;
     z-index: 1;
@@ -82,11 +82,11 @@
 .navList__link:hover {
     color: rgb(201, 201, 201);
     text-shadow: 1px 1px 6px #1953b2;
-}
+} */
 
 /* ---------------------------------  MAIN   ----------------------------------------- */
 
-#mainIndex {
+/* #mainIndex {
     display: grid;
     justify-items: center;
     align-content: center;
@@ -199,12 +199,12 @@ button:hover .circle .icon.arrow {
    
 button:hover .button-text {
     color: white;
-}
+} */
     
 
 /* ---------------------------------  FOOTER   ----------------------------------------- */
 
-footer {
+/* footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +247,7 @@ footer {
 .bxl-gmail:hover {
     transform: translateY(-10px);
     color: #0966c3;
-}
+} */
 /* ---------------------------------   SKILLS    ------------------------------------ */
 #skillsBody {
     background-color: #191a1c;
