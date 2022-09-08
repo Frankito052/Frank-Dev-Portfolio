@@ -8,13 +8,13 @@
 } */
 
 /* ---------------------------------   INDEX    ------------------------------------ */
-
+/* 
 #indexBody {
     background-image: url(../images/indexBack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
  /* ---------------------------------HEADER------------------------------------ */
  /* header{
@@ -251,14 +251,6 @@ button:hover .button-text {
 /* ---------------------------------   SKILLS    ------------------------------------ */
 #skillsBody {
     background-color: #191a1c;
-}
-
-#mainSkill {
-    display: grid;
-    grid-template-areas: 
-    "info"
-    "tech"
-    ;
 }
 
 /* ---------------------------------   SKILL INFO    ------------------------------------ */
