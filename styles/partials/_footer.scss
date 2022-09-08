@@ -6,15 +6,14 @@ footer {
     margin-bottom: 1rem;
     margin-top: 2rem;
 
-    .footIcon {
+    .bx.footIcon {
         font-size: 3rem;
-        color: white;
         margin: 0 1rem;
+        color: white;
     }
 
     .bxl-github{
         transition: all .5s ease;
-        color: white;
     }
     
     .bxl-github:hover {
@@ -24,7 +23,6 @@ footer {
     
     .bxl-linkedin {
         transition: all .4s ease;
-        color: white;
     }
     
     .bxl-linkedin:hover {
