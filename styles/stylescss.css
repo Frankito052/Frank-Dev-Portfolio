@@ -152,6 +152,135 @@ footer .bxl-gmail:hover {
   color: #0966c3;
 }
 
+@media screen and (max-width: 1024px) {
+  /*-------------SKILLS---------------------*/
+  .skillDivMain__skillPar {
+    padding: 0 2rem;
+  }
+  .skillSect {
+    padding: 0 3rem;
+  }
+  /*-------------PROYECTOS---------------------*/
+  .proSection__proyectDiv {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+  .divProDiv {
+    align-items: center;
+  }
+  .divProDiv__proList {
+    margin: 0;
+  }
+  .proPar {
+    text-align: center;
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*-------------PROYECTOS---------------------*/
+  #proMain {
+    padding: 0 2rem;
+  }
+  .proSection__proyectDiv {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1rem;
+  }
+  .divProImg {
+    align-items: flex-end;
+  }
+  .divProImg__proImg {
+    height: 15rem;
+    width: auto;
+  }
+  .divProDiv {
+    justify-content: flex-start;
+  }
+  /*-------------ABOUT---------------------*/
+  .aboutSect__info {
+    width: 80%;
+  }
+  .servSec {
+    gap: 3rem 12rem;
+  }
+  .servSec__Title {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  /*-------------CONTACT---------------------*/
+  .formDiv__name {
+    width: 26rem;
+  }
+  .formDiv__mail {
+    width: 26rem;
+  }
+  .formDiv__message {
+    width: 26rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #mainIndex {
+    height: 70vh;
+  }
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  /*-------------SKILLS---------------------*/
+  .skillSect {
+    padding: 0 3rem;
+  }
+  /*-------------PROYECTOS---------------------*/
+  #proMain {
+    padding: 0;
+  }
+  .proMain__proTitle {
+    margin-bottom: 0;
+  }
+  .proSection {
+    gap: 0.2rem;
+  }
+  .divProImg__proImg {
+    height: 10rem;
+    width: auto;
+  }
+  /*-------------ABOUT---------------------*/
+  .aboutSect__info {
+    text-align: center;
+    width: 80%;
+  }
+  #servSec__div {
+    width: 16rem;
+    height: 26rem;
+  }
+  .servSec {
+    margin-top: 1rem;
+    gap: 3rem 12rem;
+  }
+  .servSec__Title {
+    text-align: center;
+  }
+  .servSec__par {
+    text-align: center;
+  }
+  /*-------------CONTACT---------------------*/
+  .conPar {
+    padding: 1rem 2rem;
+  }
+  .formDiv__name {
+    width: 18rem;
+  }
+  .formDiv__mail {
+    width: 18rem;
+  }
+  .formDiv__message {
+    width: 18rem;
+  }
+  .formDiv__btn {
+    align-self: center;
+  }
+}
 #indexBody {
   background-image: url(../images/indexBack.jpg);
   background-repeat: no-repeat;
@@ -260,5 +389,182 @@ footer .bxl-gmail:hover {
   transform: translate(1rem, 0);
 }
 #mainIndex button:hover .button-text {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  #mainIndex {
+    height: 70vh;
+  }
+}
+/* ---------------------------------   SKILLS    ------------------------------------ */
+#skillsBody {
+  background-color: #191a1c;
+}
+
+/* ---------------------------------   SKILL INFO    ------------------------------------ */
+.skillDivMain {
+  grid-area: info;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skillDivMain__skillTitle {
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+.skillDivMain__skillSpan {
+  color: #3b82f4;
+}
+.skillDivMain__skillPar {
+  color: white;
+  padding: 0 8rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.skillSect {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 25%;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+.skillSect__skillDiv {
+  display: grid;
+  justify-items: center;
+  transition: all 0.5s ease;
+  gap: 0.5rem;
+}
+.skillSect__skillDiv .skillDiv__skillLogos {
+  height: 4.5rem;
+}
+.skillSect__skillDiv .skillDiv__skillName {
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  cursor: default;
+  text-align: center;
+}
+.skillSect__skillDiv:hover {
+  transform: scale(1.2);
+}
+
+/* ---------------------------------   MEDIA QUERYS    ---------------------------------- */
+#proBody {
+  background-color: #191a1c;
+  font-family: "Poppins", sans-serif;
+}
+#proBody .proMain {
+  padding: 0 5rem;
+}
+#proBody .proMain__proTitle {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: bolder;
+}
+#proBody .proMain__proSpan {
+  color: #3b82f4;
+}
+#proBody .proMain .proSection {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  justify-items: center;
+}
+#proBody .proMain .proSection__proyectDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 2rem;
+}
+#proBody .proMain .proSection__proyectDiv .divProImg {
+  display: flex;
+  justify-content: center;
+}
+#proBody .proMain .proSection__proyectDiv .divProImg__proImg {
+  width: 30rem;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 10px 10px 30px rgb(30, 30, 30);
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px 15px;
+  gap: 0.8rem;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proSubtitle {
+  color: #0966c3;
+  text-align: start;
+  font-size: x-large;
+  letter-spacing: 0.5px;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .proList__bold {
+  color: grey;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .proList__item {
+  margin: 0 0.5rem;
+  color: white;
+  font-weight: 500;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .bxl-html5 {
+  color: #dd4b24;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .bxl-css3 {
+  color: #2174f8;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .bxl-javascript {
+  color: #f0d81e;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv__proList .bxl-bootstrap {
+  color: #7a52b3;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .proPar {
+  text-align: start;
+  color: white;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .btnDiv {
+  display: flex;
+  gap: 1rem;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .btnDiv__proBtn {
+  width: 7rem;
+  padding: 0.8rem 0;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .btnDiv__proBtn--dark {
+  background-color: #3b82f6;
+  border: 2px solid #1953b2;
+  color: white;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .btnDiv__proBtn--light {
+  border: 2px solid #2673ed;
+  color: #3b82f6;
+}
+#proBody .proMain .proSection__proyectDiv .divProDiv .btnDiv__proBtn:hover {
+  background: #0b63f3;
+  border: 2px solid #0b63f3;
   color: white;
 }/*# sourceMappingURL=stylescss.css.map */

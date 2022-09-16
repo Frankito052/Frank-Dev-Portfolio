@@ -1,0 +1,89 @@
+/* ---------------------------------   SKILLS    ------------------------------------ */
+#skillsBody {
+    background-color: #191a1c;
+}
+
+/* ---------------------------------   SKILL INFO    ------------------------------------ */
+
+.skillDivMain {
+    grid-area: info;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__skillTitle {
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+    }
+    &__skillSpan {
+        color: #3b82f4;
+    }
+
+    &__skillPar {
+        color: white;
+        padding: 0 8rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
+
+.skillSect {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 25%;
+    gap: 3rem;
+    margin: 2rem 0;
+
+    &__skillDiv {
+        display: grid;
+        justify-items: center;
+        transition: all .5s ease;
+        gap: .5rem;
+
+        .skillDiv__skillLogos {
+            height: 4.5rem;
+        }
+    
+        .skillDiv__skillName {
+            color: white;
+            font-weight: 500;
+            font-size: medium;
+            cursor: default;
+            text-align: center;
+        }
+        
+    }
+    &__skillDiv:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+
+/* ---------------------------------   MEDIA QUERYS    ---------------------------------- */
+
+// @media screen and (max-width: 1024px) {
+
+//     .skillDivMain__skillPar {
+//         padding: 0 2rem;
+//     }
+
+//     .skillSect {
+//         padding: 0 3rem;
+//     }
+// }
+
+// @media screen and (max-width: 480px) {
+    
+//     .skillSect {
+//         padding: 0 3rem;
+//     }
+// }
+
+

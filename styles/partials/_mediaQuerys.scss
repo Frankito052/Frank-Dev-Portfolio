@@ -1,0 +1,177 @@
+ @media screen and (max-width: 1024px) {
+
+    /*-------------SKILLS---------------------*/
+
+    .skillDivMain__skillPar {
+        padding: 0 2rem;
+    }
+
+    .skillSect {
+        padding: 0 3rem;
+    }  
+    
+
+    /*-------------PROYECTOS---------------------*/
+
+     .proSection__proyectDiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .divProDiv {
+        align-items: center;
+    }
+
+    .divProDiv__proList {
+        margin: 0;
+    }
+
+    .proPar {
+        text-align: center;
+        padding: 0 4rem;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+
+    /*-------------PROYECTOS---------------------*/
+    
+    #proMain {
+        padding: 0 2rem;
+    }
+
+    .proSection__proyectDiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr;
+        gap: 1rem;
+    }
+
+
+    .divProImg {
+        align-items: flex-end;
+    }
+    
+    .divProImg__proImg {
+        height: 15rem;
+        width: auto;
+    }
+
+    .divProDiv {
+        justify-content: flex-start;
+    } 
+
+    /*-------------ABOUT---------------------*/
+
+    .aboutSect__info {
+        width: 80%;
+    }
+
+    .servSec {
+        gap: 3rem 12rem;
+    }
+
+    .servSec__Title {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    /*-------------CONTACT---------------------*/
+
+    .formDiv__name {
+        width: 26rem;
+    }
+
+    .formDiv__mail {
+        width: 26rem;
+    }
+
+    .formDiv__message { 
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+     #mainIndex {
+    height: 70vh;
+    }
+
+     footer {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    } 
+
+    /*-------------SKILLS---------------------*/
+
+     .skillSect {
+        padding: 0 3rem;
+    } 
+
+    /*-------------PROYECTOS---------------------*/
+     #proMain {
+        padding: 0;
+    }
+
+    .proMain__proTitle{
+        margin-bottom: 0;
+    }
+
+    .proSection {
+        gap: .2rem;
+    }
+
+    .divProImg__proImg {
+        height: 10rem;
+        width: auto;
+    } 
+
+    /*-------------ABOUT---------------------*/
+
+    .aboutSect__info {
+        text-align: center;
+        width: 80%;
+    }
+
+    #servSec__div {
+        width: 16rem;
+        height: 26rem;
+    }
+
+    .servSec {
+        margin-top: 1rem;
+        gap: 3rem 12rem;
+    }
+    
+    .servSec__Title {
+    text-align: center;
+    }
+
+    .servSec__par {
+        text-align: center;
+    }
+
+    /*-------------CONTACT---------------------*/
+
+    .conPar {
+        padding: 1rem 2rem;
+    }
+
+    .formDiv__name {
+        width: 18rem;
+    }
+
+    .formDiv__mail {
+        width: 18rem;
+    }
+
+    .formDiv__message { 
+        width: 18rem;
+    }
+
+    .formDiv__btn {
+        align-self: center;
+    }
+
+}

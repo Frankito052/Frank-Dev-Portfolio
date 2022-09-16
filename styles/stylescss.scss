@@ -1,5 +1,13 @@
+//PARTIALS
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
 @import "./partials/footer";
-@import "./partials/hero";
+@import "./partials/mediaQuerys";
+
+
+//PAGES
+@import "./pages/hero";
+@import "./pages/skills";
+@import "./pages/proyect";
+@import "./pages/about";

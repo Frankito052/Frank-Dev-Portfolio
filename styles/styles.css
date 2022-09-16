@@ -249,13 +249,13 @@ button:hover .button-text {
     color: #0966c3;
 } */
 /* ---------------------------------   SKILLS    ------------------------------------ */
-#skillsBody {
+/* #skillsBody {
     background-color: #191a1c;
 }
 
 /* ---------------------------------   SKILL INFO    ------------------------------------ */
 
-.skillDivMain {
+/* .skillDivMain {
     grid-area: info;
     display: flex;
     flex-wrap: wrap;
@@ -290,7 +290,7 @@ button:hover .button-text {
     gap: .5rem;
 }
 /* ---------------------------------   TECHNOLOGIES    ------------------------------------ */
-.skillSect {
+/* .skillSect {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -313,10 +313,10 @@ button:hover .button-text {
 
 .skillDiv__skillLogos {
     height: 4.5rem;
-}
+} */ 
 /* ---------------------------------   PROYECTS    ------------------------------------ */
 
-#proBody {
+/* #proBody {
     background-color: #191a1c;
     font-family: 'Poppins', sans-serif;
 }
@@ -449,7 +449,7 @@ button:hover .button-text {
 .btnDiv__proBtn--light {
     border: 2px solid #2673ed;
     color: #3b82f6;
-}
+} */
 
 /* ------------------------------------ABOUT------------------------------------------ */
 
@@ -655,21 +655,22 @@ button:hover .button-text {
 
 /*------------------------------------------NOTEBOOKS--------------------------------------*/
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 
     /*-------------SKILLS---------------------*/
 
-    .skillDivMain__skillPar {
+    /* .skillDivMain__skillPar {
         padding: 0 2rem;
     }
 
     .skillSect {
         padding: 0 3rem;
-    }
+    }  */
+    /*
 
     /*-------------PROYECTOS---------------------*/
 
-    .proSection__proyectDiv {
+    /* .proSection__proyectDiv {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
@@ -686,8 +687,8 @@ button:hover .button-text {
     .proPar {
         text-align: center;
         padding: 0 4rem;
-    }    
-}
+    }     */
+
 
 /*------------------------------------------TABLETS--------------------------------------*/
 
@@ -695,7 +696,7 @@ button:hover .button-text {
 
     /*-------------PROYECTOS---------------------*/
     
-    #proMain {
+    /* #proMain {
         padding: 0 2rem;
     }
 
@@ -717,7 +718,7 @@ button:hover .button-text {
 
     .divProDiv {
         justify-content: flex-start;
-    }
+    } */
 
     /*-------------ABOUT---------------------*/
 
@@ -755,23 +756,23 @@ button:hover .button-text {
 @media screen and (max-width: 480px) {
 
 
-    #mainIndex {
+    /* #mainIndex {
     height: 70vh;
-    }
+    } */
 
-    footer {
+    /* footer {
         margin-top: 2rem;
         margin-bottom: 2rem;
-    }
+    } */
 
     /*-------------SKILLS---------------------*/
 
-    .skillSect {
+    /* .skillSect {
         padding: 0 3rem;
-    }
+    } */
 
     /*-------------PROYECTOS---------------------*/
-    #proMain {
+    /* #proMain {
         padding: 0;
     }
 
@@ -786,7 +787,7 @@ button:hover .button-text {
     .divProImg__proImg {
         height: 10rem;
         width: auto;
-    }
+    } */
 
     /*-------------ABOUT---------------------*/
 
