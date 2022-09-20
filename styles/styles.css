@@ -16,8 +16,8 @@
     background-position: center;
 } */
 
- /* ---------------------------------HEADER------------------------------------ */
- /* header{
+/* ---------------------------------HEADER------------------------------------ */
+/* header{
     position: sticky;
     top: 0;
     z-index: 1;
@@ -200,7 +200,6 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: white;
 } */
-    
 
 /* ---------------------------------  FOOTER   ----------------------------------------- */
 
@@ -313,7 +312,7 @@ button:hover .button-text {
 
 .skillDiv__skillLogos {
     height: 4.5rem;
-} */ 
+} */
 /* ---------------------------------   PROYECTS    ------------------------------------ */
 
 /* #proBody {
@@ -454,223 +453,220 @@ button:hover .button-text {
 /* ------------------------------------ABOUT------------------------------------------ */
 
 .aboutTitle {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
 }
 
 .aboutSpan {
-    color: #3b83f7;
+  color: #3b83f7;
 }
 
-.abMainSect{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2rem;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+.abMainSect {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .abDivImg {
-    display: flex;
-    background-color: white;
-    border: 3px solid #3b83f7;
+  display: flex;
+  background-color: white;
+  border: 3px solid #3b83f7;
 }
 
 .abDivImg__abImg {
-    display: flex;
-    width: 15rem;
+  display: flex;
+  width: 15rem;
 }
 
-.aboutSect__info{
-    width: 40%;
-    justify-self: flex-start;
+.aboutSect__info {
+  width: 40%;
+  justify-self: flex-start;
 }
 
 .aboutSect__title1 {
-    color: white;
+  color: white;
 }
 
 .aboutSect__par1 {
-    color: white;
+  color: white;
 }
 
 .aboutSect {
-    display: flex;
-    flex-direction: column;
-    padding: 0 5rem;
-    gap: 2rem;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
 .aboutSect__div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    letter-spacing: .5px;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-top: 2rem;
 }
 
 .servSec {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: .8rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-#servSec__div{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 1rem;
-    width: 22rem;
-    height: auto;
-    border: 3px solid #3b83f7;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 15px 15px 40px black;
-    gap: .5rem;
-    text-align: start;
-    transition: all .5s ease;
+#servSec__div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  width: 22rem;
+  height: auto;
+  border: 3px solid #3b83f7;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 15px 15px 40px black;
+  gap: 0.5rem;
+  text-align: start;
+  transition: all 0.5s ease;
 }
 
 #servSec__div:hover {
-    transform: translateY(-15px);
+  transform: translateY(-15px);
 }
 
 .servSec__img {
-    height: 15rem;
+  height: 15rem;
 }
 
 .servSec__Title {
-    color: black;
-    font-weight: 700;
-    letter-spacing: .5px;
-    font-size: x-large;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: x-large;
 }
 
 .servSec__par {
-    color: black;
+  color: black;
 }
 
 /* ----------------------------------CONTACTO------------------------------------------ */
 
 #conMain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
 }
 
 .conTitle {
-    margin-top: 1rem;
-    text-align: center;
-    color: black;
-    font-weight: bolder;
-    letter-spacing: .2px;
+  margin-top: 1rem;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 0.2px;
 }
 
 .conSpan {
-    color: #3b83f7;
+  color: #3b83f7;
 }
 
 .conPar {
-    color: black;
-    text-align: center;
-    letter-spacing: .2px;
-    font-size: 18px;
-    padding: 1rem 8rem;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  padding: 1rem 8rem;
 }
 
 .formDiv {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 8rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .formDiv__form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .formDiv__name {
-    border-radius: 3px;
-    border: 3px solid #3b83f7;
-    text-align: start;
-    padding: 10px;
-    height: 50px;
-    width: 31.875rem;
+  border-radius: 3px;
+  border: 3px solid #3b83f7;
+  text-align: start;
+  padding: 10px;
+  height: 50px;
+  width: 31.875rem;
 }
 
 .formDiv__mail {
-    border-radius: 3px;
-    border: 3px solid #3b83f7;
-    text-align: start;
-    padding: 10px;
-    height: 50px;
-    width: 510px;
+  border-radius: 3px;
+  border: 3px solid #3b83f7;
+  text-align: start;
+  padding: 10px;
+  height: 50px;
+  width: 510px;
 }
 
 .formDiv__message {
-    padding: 10px;
-    width: 510px;
-    border-radius: 3px;
-    border: 3px solid #3b83f7;
-    resize: none;
+  padding: 10px;
+  width: 510px;
+  border-radius: 3px;
+  border: 3px solid #3b83f7;
+  resize: none;
 }
 
 .formDiv__btn {
-    height: 3rem;
-    width: 8rem;
-    border-radius: 3px;
-    background-color: #3b83f7;
-    border: none;
-    color: white;
-    font-size: 16px;
-    box-shadow: 1px 5px 8px #185dcd;
-    cursor: pointer;
-    transition: all .4s ease;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 3px;
+  background-color: #3b83f7;
+  border: none;
+  color: white;
+  font-size: 16px;
+  box-shadow: 1px 5px 8px #185dcd;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .formDiv__btn:hover {
-    color: #3b83f7;
-    background-color: white;
-    border: 1px solid white;
+  color: #3b83f7;
+  background-color: white;
+  border: 1px solid white;
 }
 
 /*-------------------------------------------J------------------------------------------------*/
 /*------------------------------------------QUE-----------------------------------------------*/
 /*------------------------------------------RYS-----------------------------------------------*/
 
-
-
 /*------------------------------------------NOTEBOOKS--------------------------------------*/
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  /*-------------SKILLS---------------------*/
 
-    /*-------------SKILLS---------------------*/
-
-    /* .skillDivMain__skillPar {
+  /* .skillDivMain__skillPar {
         padding: 0 2rem;
     }
 
     .skillSect {
         padding: 0 3rem;
     }  */
-    /*
+  /*
 
     /*-------------PROYECTOS---------------------*/
 
-    /* .proSection__proyectDiv {
+  /* .proSection__proyectDiv {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
@@ -689,14 +685,11 @@ button:hover .button-text {
         padding: 0 4rem;
     }     */
 
+  /*------------------------------------------TABLETS--------------------------------------*/
 
-/*------------------------------------------TABLETS--------------------------------------*/
+  /*-------------PROYECTOS---------------------*/
 
-@media screen and (max-width: 768px) {
-
-    /*-------------PROYECTOS---------------------*/
-    
-    /* #proMain {
+  /* #proMain {
         padding: 0 2rem;
     }
 
@@ -719,43 +712,40 @@ button:hover .button-text {
     .divProDiv {
         justify-content: flex-start;
     } */
-
+  @media screen and (max-width: 768px) {
     /*-------------ABOUT---------------------*/
 
     .aboutSect__info {
-        width: 80%;
+      width: 80%;
     }
 
     .servSec {
-        gap: 3rem 12rem;
+      gap: 3rem 12rem;
     }
 
     .servSec__Title {
-        text-align: center;
-        margin-top: 1rem;
+      text-align: center;
+      margin-top: 1rem;
     }
 
     /*-------------CONTACT---------------------*/
 
     .formDiv__name {
-        width: 26rem;
+      width: 26rem;
     }
 
     .formDiv__mail {
-        width: 26rem;
+      width: 26rem;
     }
 
-    .formDiv__message { 
-        width: 26rem;
+    .formDiv__message {
+      width: 26rem;
     }
-}
+  }
 
-/*------------------------------------------CELULARES--------------------------------------*/
+  /*------------------------------------------CELULARES--------------------------------------*/
 
-
-@media screen and (max-width: 480px) {
-
-
+  /* @media screen and (max-width: 480px) { */
     /* #mainIndex {
     height: 70vh;
     } */
@@ -792,48 +782,48 @@ button:hover .button-text {
     /*-------------ABOUT---------------------*/
 
     .aboutSect__info {
-        text-align: center;
-        width: 80%;
+      text-align: center;
+      width: 80%;
     }
 
     #servSec__div {
-        width: 16rem;
-        height: 26rem;
+      width: 16rem;
+      height: 26rem;
     }
 
     .servSec {
-        margin-top: 1rem;
-        gap: 3rem 12rem;
+      margin-top: 1rem;
+      gap: 3rem 12rem;
     }
-    
+
     .servSec__Title {
-    text-align: center;
+      text-align: center;
     }
 
     .servSec__par {
-        text-align: center;
+      text-align: center;
     }
 
     /*-------------CONTACT---------------------*/
 
     .conPar {
-        padding: 1rem 2rem;
+      padding: 1rem 2rem;
     }
 
     .formDiv__name {
-        width: 18rem;
+      width: 18rem;
     }
 
     .formDiv__mail {
-        width: 18rem;
+      width: 18rem;
     }
 
-    .formDiv__message { 
-        width: 18rem;
+    .formDiv__message {
+      width: 18rem;
     }
 
     .formDiv__btn {
-        align-self: center;
+      align-self: center;
     }
-
+  }
 }
