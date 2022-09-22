@@ -631,13 +631,146 @@ footer .bxl-gmail:hover {
     padding: 0;
   }
   .proMain__proTitle {
-    margin-bottom: 0;
+    margin-bottom: 3rem;
   }
   .proSection {
-    gap: 0.2rem;
+    gap: 1.5rem;
   }
   .divProImg__proImg {
     height: auto;
     width: 80%;
+  }
+}
+.aboutTitle {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.aboutTitle__aboutSpan {
+  color: #3b83f7;
+}
+
+.abMainSect {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.abMainSect__abDivImg {
+  display: flex;
+  background-color: white;
+  border: 3px solid #3b83f7;
+}
+.abMainSect__abDivImg .abDivImg__abImg {
+  display: flex;
+  width: 15rem;
+}
+.abMainSect__info {
+  width: 40%;
+  justify-self: flex-start;
+}
+.abMainSect__title1 {
+  color: white;
+}
+.abMainSect__par1 {
+  color: white;
+}
+
+.aboutSect {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.aboutSect__div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-top: 2rem;
+}
+.aboutSect .servSec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.aboutSect .servSec__servDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  width: 22rem;
+  height: auto;
+  border: 3px solid #3b83f7;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 15px 15px 40px black;
+  gap: 0.5rem;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.aboutSect .servSec__servDiv .aboutSpan {
+  color: #3b83f7;
+}
+.aboutSect .servSec__servDiv:hover {
+  transform: translateY(-15px);
+}
+.aboutSect .servSec__img {
+  height: 15rem;
+}
+.aboutSect .servSec__title {
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: x-large;
+}
+.aboutSect .servSec__par {
+  color: black;
+}
+
+/*-------------------------------------------J------------------------------------------------*/
+/*------------------------------------------QUE-----------------------------------------------*/
+/*------------------------------------------RYS-----------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .aboutSect__info {
+    width: 80%;
+  }
+  .servSec {
+    gap: 10rem;
+  }
+  .servSec__servDiv {
+    margin-top: 2rem;
+  }
+  .servSec__title {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .abMainSect__info {
+    text-align: center;
+    width: 80%;
+  }
+  .aboutSect .servSec {
+    margin-top: 1rem;
+    gap: 3rem 12rem;
+  }
+  .aboutSect .servSec__servDiv {
+    width: 16rem;
+    height: 26rem;
+  }
+  .aboutSect .servSec__title {
+    text-align: center;
+  }
+  .aboutSect .servSec__par {
+    text-align: center;
   }
 }/*# sourceMappingURL=stylescss.css.map */
