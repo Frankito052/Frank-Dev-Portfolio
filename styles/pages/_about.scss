@@ -1,3 +1,10 @@
+@mixin flex($direction, $justify, $align){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+};
+
 .aboutTitle {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -10,11 +17,12 @@
 }
 
 .abMainSect {
-  display: flex;
+  @include flex(row, center, center);
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   flex-wrap: wrap;
   padding: 0 2rem;
-  align-items: center;
-  justify-content: center;
   gap: 50px;
 
   &__abDivImg {
@@ -77,12 +85,12 @@
       box-shadow: 15px 15px 40px black;
       gap: 0.5rem;
       text-align: center;
-      transition: all 0.5s ease;
+      transition: all 0s ease;
+
+      &:hover {
+        transform: translateY(-15px);
+      } 
     }
-   
-    &__servDiv:hover {
-      transform: translateY(-15px);
-    } 
 
     &__img {
       height: 15rem;
@@ -104,11 +112,6 @@
     }
   }
 }
-
-
-
-
-
 
 /*-------------------------------------------J------------------------------------------------*/
 /*------------------------------------------QUE-----------------------------------------------*/
@@ -159,6 +162,6 @@
     }
   }
 }
-
-
 }
+
+

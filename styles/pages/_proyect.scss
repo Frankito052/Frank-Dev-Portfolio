@@ -56,73 +56,72 @@
     letter-spacing: 0.5px;
   }
 }
-  .proList {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+.proList {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 
-    &__bold {
-      color: grey;
-    }
-    &__item {
-      margin: 0 0.5rem;
+  &__bold {
+    color: grey;
+  }
+  &__item {
+    margin: 0 0.5rem;
+    font-weight: 500;
+  }
+
+  // .bxl-html5 {
+  //   color: #dd4b24;
+  // }
+
+  // .bxl-css3 {
+  //   color: #2174f8;
+  // }
+
+  // .bxl-javascript {
+  //   color: #f0d81e;
+  // }
+
+  // .bxl-bootstrap {
+  //   color: #7a52b3;
+  // }
+}
+.proPar {
+  text-align: start;
+  color: white;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 1rem;
+
+  &__proBtn {
+    width: 7rem;
+    padding: 0.8rem 0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+
+    &--dark {
+      background-color: #3b82f6;
+      border: 2px solid #1953b2;
       color: white;
-      font-weight: 500;
     }
 
-    .bxl-html5 {
-      color: #dd4b24;
-    }
-
-    .bxl-css3 {
-      color: #2174f8;
-    }
-
-    .bxl-javascript {
-      color: #f0d81e;
-    }
-
-    .bxl-bootstrap {
-      color: #7a52b3;
+    &--light {
+      border: 2px solid #2673ed;
+      color: #3b82f6;
     }
   }
-  .proPar {
-    text-align: start;
+  &__proBtn:hover {
+    background: #0b63f3;
+    border: 2px solid #0b63f3;
     color: white;
-    letter-spacing: 0.5px;
-    margin: 0;
   }
-
-  .btnDiv {
-    display: flex;
-    gap: 1rem;
-
-    &__proBtn {
-      width: 7rem;
-      padding: 0.8rem 0;
-      border-radius: 3px;
-      transition: all 0.3s ease;
-      font-weight: 500;
-
-      &--dark {
-        background-color: #3b82f6;
-        border: 2px solid #1953b2;
-        color: white;
-      }
-
-      &--light {
-        border: 2px solid #2673ed;
-        color: #3b82f6;
-      }
-    }
-    &__proBtn:hover {
-      background: #0b63f3;
-      border: 2px solid #0b63f3;
-      color: white;
-    }
-  }
+}
 
 @media screen and (max-width: 1024px) {
   .proSection__proyectDiv {
@@ -186,4 +185,19 @@
     height: auto;
     width: 80%;
   }
+}
+
+$tools: (
+  html5: #dd4b24,
+  css3: #2174f8,
+  bootstrap: #7a52b3,
+  javascript: #f0d81e,
+);
+
+@each $tool, $colordered in $tools {
+  .proList__item{
+  .bxl-#{$tool} {
+    color: $colordered;
+  }
+}
 }

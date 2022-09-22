@@ -14,29 +14,17 @@ footer {
 
     .bxl-github{
         transition: all .5s ease;
-    }
-    
-    .bxl-github:hover {
-        transform: translateY(-10px);
-        color: #0966c3;
+
+        &:hover {
+            transform: translateY(-10px);
+            color: #0966c3;
+        }
     }
     
     .bxl-linkedin {
-        transition: all .4s ease;
+        @extend .bxl-github
     }
-    
-    .bxl-linkedin:hover {
-        transform: translateY(-10px);
-        color: #0966c3;
-    }
-    
     .bxl-gmail {
-        transition: all .4s ease;
-        color: white;
-    }
-    
-    .bxl-gmail:hover {
-        transform: translateY(-10px);
-        color: #0966c3;
+        @extend .bxl-github
     }
 }

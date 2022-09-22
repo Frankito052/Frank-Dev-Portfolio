@@ -129,157 +129,12 @@ footer .bx.footIcon {
   margin: 0 1rem;
   color: white;
 }
-footer .bxl-github {
+footer .bxl-github, footer .bxl-gmail, footer .bxl-linkedin {
   transition: all 0.5s ease;
 }
-footer .bxl-github:hover {
+footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   transform: translateY(-10px);
   color: #0966c3;
-}
-footer .bxl-linkedin {
-  transition: all 0.4s ease;
-}
-footer .bxl-linkedin:hover {
-  transform: translateY(-10px);
-  color: #0966c3;
-}
-footer .bxl-gmail {
-  transition: all 0.4s ease;
-  color: white;
-}
-footer .bxl-gmail:hover {
-  transform: translateY(-10px);
-  color: #0966c3;
-}
-
-@media screen and (max-width: 1024px) {
-  /*-------------SKILLS---------------------*/
-  .skillDivMain__skillPar {
-    padding: 0 2rem;
-  }
-  .skillSect {
-    padding: 0 3rem;
-  }
-  /*-------------PROYECTOS---------------------*/
-  .proSection__proyectDiv {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
-  }
-  .divProDiv {
-    align-items: center;
-  }
-  .divProDiv__proList {
-    margin: 0;
-  }
-  .proPar {
-    text-align: center;
-    padding: 0 4rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /*-------------PROYECTOS---------------------*/
-  #proMain {
-    padding: 0 2rem;
-  }
-  .proSection__proyectDiv {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr;
-    gap: 1rem;
-  }
-  .divProImg {
-    align-items: flex-end;
-  }
-  .divProImg__proImg {
-    height: 15rem;
-    width: auto;
-  }
-  .divProDiv {
-    justify-content: flex-start;
-  }
-  /*-------------ABOUT---------------------*/
-  .aboutSect__info {
-    width: 80%;
-  }
-  .servSec {
-    gap: 3rem 12rem;
-  }
-  .servSec__Title {
-    text-align: center;
-    margin-top: 1rem;
-  }
-  /*-------------CONTACT---------------------*/
-  .formDiv__name {
-    width: 26rem;
-  }
-  .formDiv__mail {
-    width: 26rem;
-  }
-  .formDiv__message {
-    width: 26rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  #mainIndex {
-    height: 70vh;
-  }
-  footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  /*-------------SKILLS---------------------*/
-  .skillSect {
-    padding: 0 3rem;
-  }
-  /*-------------PROYECTOS---------------------*/
-  #proMain {
-    padding: 0;
-  }
-  .proMain__proTitle {
-    margin-bottom: 0;
-  }
-  .proSection {
-    gap: 0.2rem;
-  }
-  .divProImg__proImg {
-    height: 10rem;
-    width: auto;
-  }
-  /*-------------ABOUT---------------------*/
-  .aboutSect__info {
-    text-align: center;
-    width: 80%;
-  }
-  #servSec__div {
-    width: 16rem;
-    height: 26rem;
-  }
-  .servSec {
-    margin-top: 1rem;
-    gap: 3rem 12rem;
-  }
-  .servSec__Title {
-    text-align: center;
-  }
-  .servSec__par {
-    text-align: center;
-  }
-  /*-------------CONTACT---------------------*/
-  .conPar {
-    padding: 1rem 2rem;
-  }
-  .formDiv__name {
-    width: 18rem;
-  }
-  .formDiv__mail {
-    width: 18rem;
-  }
-  .formDiv__message {
-    width: 18rem;
-  }
-  .formDiv__btn {
-    align-self: center;
-  }
 }
 #indexBody {
   background-image: url(../images/indexBack.jpg);
@@ -540,20 +395,7 @@ footer .bxl-gmail:hover {
 }
 .proList__item {
   margin: 0 0.5rem;
-  color: white;
   font-weight: 500;
-}
-.proList .bxl-html5 {
-  color: #dd4b24;
-}
-.proList .bxl-css3 {
-  color: #2174f8;
-}
-.proList .bxl-javascript {
-  color: #f0d81e;
-}
-.proList .bxl-bootstrap {
-  color: #7a52b3;
 }
 
 .proPar {
@@ -641,6 +483,22 @@ footer .bxl-gmail:hover {
     width: 80%;
   }
 }
+.proList__item .bxl-html5 {
+  color: #dd4b24;
+}
+
+.proList__item .bxl-css3 {
+  color: #2174f8;
+}
+
+.proList__item .bxl-bootstrap {
+  color: #7a52b3;
+}
+
+.proList__item .bxl-javascript {
+  color: #f0d81e;
+}
+
 .aboutTitle {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -654,10 +512,11 @@ footer .bxl-gmail:hover {
 
 .abMainSect {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding: 0 2rem;
-  align-items: center;
-  justify-content: center;
   gap: 50px;
 }
 .abMainSect__abDivImg {
@@ -715,7 +574,7 @@ footer .bxl-gmail:hover {
   box-shadow: 15px 15px 40px black;
   gap: 0.5rem;
   text-align: center;
-  transition: all 0.5s ease;
+  transition: all 0s ease;
 }
 .aboutSect .servSec__servDiv:hover {
   transform: translateY(-15px);
