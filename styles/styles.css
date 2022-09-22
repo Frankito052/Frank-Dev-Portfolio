@@ -559,7 +559,7 @@ button:hover .button-text {
 
 /* ----------------------------------CONTACTO------------------------------------------ */
 
-#conMain {
+/* #conMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -644,7 +644,7 @@ button:hover .button-text {
   color: #3b83f7;
   background-color: white;
   border: 1px solid white;
-}
+} */
 
 /*-------------------------------------------J------------------------------------------------*/
 /*------------------------------------------QUE-----------------------------------------------*/
@@ -652,7 +652,7 @@ button:hover .button-text {
 
 /*------------------------------------------NOTEBOOKS--------------------------------------*/
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) { */
   /*-------------SKILLS---------------------*/
 
   /* .skillDivMain__skillPar {
@@ -712,7 +712,7 @@ button:hover .button-text {
     .divProDiv {
         justify-content: flex-start;
     } */
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) { */
     /*-------------ABOUT---------------------*/
 /* 
     .aboutSect__info {
@@ -729,7 +729,7 @@ button:hover .button-text {
     } */
 
     /*-------------CONTACT---------------------*/
-
+/* 
     .formDiv__name {
       width: 26rem;
     }
@@ -741,7 +741,7 @@ button:hover .button-text {
     .formDiv__message {
       width: 26rem;
     }
-  }
+  } */
 
   /*------------------------------------------CELULARES--------------------------------------*/
 
@@ -806,7 +806,7 @@ button:hover .button-text {
 
     /*-------------CONTACT---------------------*/
 
-    .conPar {
+    /* .conPar {
       padding: 1rem 2rem;
     }
 
@@ -825,4 +825,4 @@ button:hover .button-text {
     .formDiv__btn {
       align-self: center;
     }
-  }
+  } */
