@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #191a1c;
+    overflow: hidden;
 }
 
 #mainIndex {
@@ -11,11 +13,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 70vh;
     color: white;
+    min-height: 75vh;
     font-size: xx-large;
     text-shadow: 4px 2px 10px rgb(32, 31, 31);
-    overflow: hidden;
 
     .mainIndex__mainTitle{
         line-height: 1;
