@@ -73,23 +73,26 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 
+    &__hover{
+      transition: all 0.5s ease;
+
+      &:hover{
+        transform: translateY(-15px);
+      }
+    }
+
     &__servDiv {
       display: flex;
       flex-direction: column;
       padding: 1rem 1rem;
       width: 22rem;
-      height: auto;
+      height: 28rem;
       border: 3px solid #3b83f7;
       border-radius: 5px;
       background-color: white;
       box-shadow: 15px 15px 40px black;
       gap: 0.5rem;
       text-align: center;
-      transition: all 0s ease;
-
-      &:hover {
-        transform: translateY(-15px);
-      } 
     }
 
     &__img {
