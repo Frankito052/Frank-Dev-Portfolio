@@ -275,7 +275,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
 
 @media screen and (max-width: 480px) {
   #mainIndex {
-    min-height: 70vh;
+    min-height: 90vh;
   }
 }
 /* ---------------------------------   SKILLS    ------------------------------------ */
