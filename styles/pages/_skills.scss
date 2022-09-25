@@ -63,6 +63,64 @@
     }
 }
 
+.certSect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 0 5%;
+    gap: 1rem;
+
+    &__title{
+        color: white;
+    }
+
+    .certCage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        &__name{
+            color: white;
+            text-align: center;
+        }
+
+        .nameSpan {
+            color: #3b82f4;
+        }
+
+        &__image{
+            width: 80%;
+        }
+    }
+
+    .cvTitle {
+        color: white;
+        text-align: center;
+    }
+
+    .cvSpan{
+        color: #3b82f4;
+    }
+
+    .cvBtn {
+        padding: 1rem;
+        border: 1px solid black;
+        background-color: #3b82f4;
+        color: white;
+        transition: all .5s ease;
+        font-weight: 500;
+
+        &:hover{
+            background-color: white;
+            color: #3b82f4;
+        }
+    }
+}
+
 
 
 /* ---------------------------------   MEDIA QUERYS    ---------------------------------- */
@@ -82,6 +140,10 @@
     
      .skillSect {
         padding: 0 3rem;
+    }
+
+    .certCage__image{
+        width: 100%;
     }
  }
 
