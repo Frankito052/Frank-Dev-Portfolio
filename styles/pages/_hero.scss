@@ -29,7 +29,7 @@
         background-size: 400%;
         filter: opacity(1.5);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        background-clip: text;
         animation: animate 15s  infinite;
     }
 

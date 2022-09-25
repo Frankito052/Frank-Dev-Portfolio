@@ -168,6 +168,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   filter: opacity(1.5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-animation: animate 15s infinite;
           animation: animate 15s infinite;
 }
