@@ -142,6 +142,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  background-color: #222;
 }
 
 #mainIndex {
@@ -275,7 +276,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
 
 @media screen and (max-width: 480px) {
   #mainIndex {
-    min-height: 90vh;
+    min-height: 70vh;
   }
 }
 /* ---------------------------------   SKILLS    ------------------------------------ */

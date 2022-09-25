@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    background-color: #222;
 }
 
 #mainIndex {
@@ -141,6 +142,6 @@
 @media screen and (max-width: 480px) {
 
 #mainIndex {
-    min-height: 90vh;
+    min-height: 70vh;
     }
 }
