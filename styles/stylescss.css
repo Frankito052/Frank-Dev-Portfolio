@@ -153,15 +153,39 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   min-height: 75vh;
   color: white;
   font-size: xx-large;
-  text-shadow: 4px 2px 10px rgb(32, 31, 31);
   overflow: hidden;
+  text-shadow: 6px 4px 8px rgb(32, 31, 31);
 }
 #mainIndex .mainIndex__mainTitle {
   line-height: 1;
   letter-spacing: 1px;
   font-size: 3rem;
   font-weight: bolder;
+  text-shadow: none;
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #0966c3, #3b83f7, #0d68f0);
+  background-size: 400%;
+  filter: opacity(1.5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: animate 15s infinite;
+          animation: animate 15s infinite;
+}
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
 #mainIndex .mainIndex__mainSubtitle {
   font-weight: 500;
