@@ -26,12 +26,12 @@
         font-weight: bolder;
         text-shadow: none;
         font-family: 'Poppins', sans-serif;
-        background: linear-gradient( 90deg, #0966c3, #3b83f7, #0d68f0);
+        background: linear-gradient( 50deg, #09539e, #245bb4, #2174f0, #3b83f0, #5e99f1, #76a5ed, #5e99f1, #3b83f0, #2174f0, #245bb4, #09539e);
         background-size: 400%;
         filter: opacity(1.5);
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        animation: animate 15s  infinite;
+        animation: animate 20s  infinite;
     }
 
     @keyframes animate{
@@ -39,7 +39,7 @@
             background-position: 0%;
         }
         100% {
-            background-position: 400%;
+            background-position: 300%;
         }
         
     }

@@ -164,21 +164,21 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   font-weight: bolder;
   text-shadow: none;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(90deg, #0966c3, #3b83f7, #0d68f0);
+  background: linear-gradient(50deg, #09539e, #245bb4, #2174f0, #3b83f0, #5e99f1, #76a5ed, #5e99f1, #3b83f0, #2174f0, #245bb4, #09539e);
   background-size: 400%;
   filter: opacity(1.5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
-  -webkit-animation: animate 15s infinite;
-          animation: animate 15s infinite;
+  -webkit-animation: animate 20s infinite;
+          animation: animate 20s infinite;
 }
 @-webkit-keyframes animate {
   0% {
     background-position: 0%;
   }
   100% {
-    background-position: 400%;
+    background-position: 300%;
   }
 }
 @keyframes animate {
@@ -186,7 +186,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
     background-position: 0%;
   }
   100% {
-    background-position: 400%;
+    background-position: 300%;
   }
 }
 #mainIndex .mainIndex__mainSubtitle {
@@ -350,6 +350,8 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
 }
 .certSect__title {
   color: white;
+  font-size: xx-large;
+  font-weight: bold;
 }
 .certSect .certCage {
   display: flex;
@@ -360,6 +362,8 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
 .certSect .certCage__name {
   color: white;
   text-align: center;
+  font-family: xx-large;
+  font-weight: 800;
 }
 .certSect .certCage .nameSpan {
   color: #3b82f4;
