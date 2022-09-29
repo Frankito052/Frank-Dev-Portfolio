@@ -152,14 +152,25 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
   text-align: center;
   color: white;
   font-size: xx-large;
   overflow: hidden;
   text-shadow: 6px 4px 8px rgb(32, 31, 31);
+  flex-grow: 1;
 }
-#mainIndex .mainIndex__mainTitle {
+#mainIndex main {
+  display: flex;
+  flex-grow: 1;
+}
+#mainIndex main .heroDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+#mainIndex main .mainIndex__mainTitle {
   line-height: 1;
   letter-spacing: 1px;
   font-size: 3rem;
@@ -191,13 +202,13 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
     background-position: 300%;
   }
 }
-#mainIndex .mainIndex__mainSubtitle {
+#mainIndex main .mainIndex__mainSubtitle {
   font-weight: 500;
   font-size: xx-large;
   margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
 }
-#mainIndex button.learn-more {
+#mainIndex main button.learn-more {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -212,7 +223,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   width: 12rem;
   height: auto;
 }
-#mainIndex button.learn-more .circle {
+#mainIndex main button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -222,7 +233,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   background: #0966c3;
   border-radius: 1.625rem;
 }
-#mainIndex button.learn-more .circle .icon {
+#mainIndex main button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -230,14 +241,14 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   margin: auto;
   background: #fff;
 }
-#mainIndex button.learn-more .circle .icon.arrow {
+#mainIndex main button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
 }
-#mainIndex button.learn-more .circle .icon.arrow::before {
+#mainIndex main button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.29rem;
@@ -248,7 +259,7 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
 }
-#mainIndex button.learn-more .button-text {
+#mainIndex main button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -265,22 +276,17 @@ footer .bxl-github:hover, footer .bxl-gmail:hover, footer .bxl-linkedin:hover {
   text-align: center;
   text-transform: uppercase;
 }
-#mainIndex button:hover .circle {
+#mainIndex main button:hover .circle {
   width: 100%;
 }
-#mainIndex button:hover .circle .icon.arrow {
+#mainIndex main button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
 }
-#mainIndex button:hover .button-text {
+#mainIndex main button:hover .button-text {
   color: white;
 }
 
-@media screen and (max-width: 480px) {
-  #mainIndex {
-    min-height: 70vh;
-  }
-}
 /* ---------------------------------   SKILLS    ------------------------------------ */
 #skillsBody {
   background-color: #191a1c;
