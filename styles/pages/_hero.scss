@@ -1,10 +1,12 @@
 #indexBody {
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/indexBack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    background-color: #222;
+    background-position: center center;
+    background-color: #111;
+    min-height: 100vh;
 }
 
 #mainIndex {
@@ -12,8 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     text-align: center;
-    min-height: 75vh;
     color: white;
     font-size: xx-large;
     overflow: hidden;
